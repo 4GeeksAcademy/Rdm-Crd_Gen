@@ -14,15 +14,17 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <button
+        onclick="switchCardButton()"
+        id="button"
+        class="btn btn-sm btn-danger shadow rounded p-1"
+      >
+        Click me
+      </button>
+      <div id="card" class="card">
+        <span id="top-suit" class="simbolo">♥ </span>
+        <span class="number">7</span>
+        <span id="bottom-suit" class="simbolo">♥</span>
       </div>
     </div>
   </body>

@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  height: 400px;
+  width: 300px;
+  padding: 25px;
+  padding-top: 125px;
+  border-radius: 10px;
+  font-size: 80px;
+  position: relative;
+}
+#top-suit {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 75px;
+}
+#bottom-suit {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 75px;
+  transform: rotate(180deg);
+}
+
+.simbolo.black {
+  color: black;
+}
+
+.simbolo.red {
+  color: red;
+}

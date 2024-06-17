@@ -1,6 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
-  background-color: green;
+  background-color: rgb(28, 175, 28);
 }
 .card {
   display: inline-block;
